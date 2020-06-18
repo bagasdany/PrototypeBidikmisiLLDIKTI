@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stepbystepara.bidikmisilldikti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logobidikmisi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".usm.DashboardUsm"></activity>
+        <activity android:name=".usm.ChartFragmentUsm" />
+        <activity android:name=".usm.ChartActivityUsm" />
+        <activity android:name=".usm.LoginActivityUsm" />
+        <activity android:name=".usm.MainActivityUsm" />
+        <activity android:name=".usm.EditorActivityUsm" />
+
+        <activity android:name=".upgris.DashboardUpgris"></activity>
+        <activity android:name=".upgris.ChartFragmentUpgris" />
+        <activity android:name=".upgris.ChartActivityUpgris" />
+        <activity android:name=".upgris.LoginActivityUpgris" />
+        <activity android:name=".upgris.MainActivityUpgris" />
+        <activity android:name=".upgris.EditorActivityUpgris" />
+
+        <activity android:name=".unissula.DashboardUnissula"></activity>
+        <activity android:name=".unissula.ChartFragmentUnissula" />
+        <activity android:name=".unissula.ChartActivityUnissula" />
+        <activity android:name=".unissula.LoginActivityUnissula" />
+        <activity android:name=".unissula.MainActivityUnissula" />
+        <activity android:name=".unissula.EditorActivityUnissula" />
+
+        <activity android:name=".ivet.DashboardIvet"></activity>
+        <activity android:name=".ivet.ChartFragmentIvet" />
+        <activity android:name=".ivet.ChartActivityIvet" />
+        <activity android:name=".ivet.LoginActivityIvet" />
+        <activity android:name=".ivet.MainActivityIvet" />
+        <activity android:name=".ivet.EditorActivityIvet" />
+
+        <activity android:name=".Admin.DashboardAdmin"></activity>
+        <activity android:name=".Admin.ChartFragmentAdmin" />
+        <activity android:name=".Admin.ChartActivityAdmin" />
+        <activity android:name=".Admin.LoginActivityAdmin" />
+        <activity android:name=".Admin.MainActivityAdmin" />
+        <activity android:name=".Admin.EditorActivityAdmin" />
+        <activity android:name=".Admin.IpkActivityAdmin" />
+        <activity android:name=".Admin.PrestasiActivityAdmin" />
+        <activity android:name=".Admin.DanaActivityAdmin" />
+        <activity android:name=".Admin.MhsMundurActivityAdmin" />
+        <activity android:name=".Admin.Mhstidakaktif" />
+
+
+        <activity android:name=".untag.DashboardUntag"></activity>
+        <activity android:name=".untag.ChartFragmentUntag" />
+        <activity android:name=".untag.ChartActivityUntag" />
+        <activity android:name=".untag.LoginActivityUntag" />
+        <activity android:name=".untag.MainActivityUntag" />
+        <activity android:name=".untag.EditorActivityUntag" />
+
+        <activity android:name=".unisbank.DashboardUnisbank"></activity>
+        <activity android:name=".unisbank.ChartFragmentUnisbank" />
+        <activity android:name=".unisbank.ChartActivityUnisbank" />
+        <activity android:name=".unisbank.LoginActivityUnisbank" />
+        <activity android:name=".unisbank.MainActivityUnisbank" />
+        <activity android:name=".unisbank.EditorActivityUnisbank" />
+
+        <activity android:name=".unimus.DashboardUnimus"></activity>
+        <activity android:name=".unimus.ChartFragmentUnimus" />
+        <activity android:name=".unimus.ChartActivityUnimus" />
+        <activity android:name=".unimus.LoginActivityUnimus" />
+        <activity android:name=".unimus.MainActivityUnimus" />
+        <activity android:name=".unimus.EditorActivityUnimus" />
+
+        <activity android:name=".unwahas.DashboardUnwahas"></activity>
+        <activity android:name=".unwahas.ChartFragmentUnwahas" />
+        <activity android:name=".unwahas.ChartActivityUnwahas" />
+        <activity android:name=".unwahas.LoginActivityUnwahas" />
+        <activity android:name=".unwahas.MainActivityUnwahas" />
+        <activity android:name=".unwahas.EditorActivityUnwahas" />
+
+        <activity android:name=".unika.DashboardUnika"></activity>
+        <activity android:name=".unika.ChartFragmentUnika" />
+        <activity android:name=".unika.ChartActivityUnika" />
+        <activity android:name=".unika.LoginActivityUnika" />
+        <activity android:name=".unika.MainActivityUnika" />
+        <activity android:name=".unika.EditorActivityUnika" />
+        <activity android:name=".pilihkampus" />
+        <activity android:name=".udinus.DashboardUdinus" />
+        <activity android:name=".udinus.LoginActivityUdinus" />
+        <activity android:name=".udinus.MainActivityUdinus" />
+        <activity android:name=".udinus.ChartActivityUdinus" />
+        <activity android:name=".udinus.ChartFragmentUdinus" />
+        <activity
+            android:name=".udinus.EditorActivityUdinus"
+            android:label="List Mahasiswa"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

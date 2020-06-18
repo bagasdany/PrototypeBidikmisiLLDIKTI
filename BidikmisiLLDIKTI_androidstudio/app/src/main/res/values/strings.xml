@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mahasiswa Bidikmisi</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="status_nonaktif">Tidak Aktif</string>
+    <string name="status_aktif">Aktif</string>
+    <string name="status_mundur">Mundur</string>
+    <string name="kampus_unknown">unknown</string>
+    <string name="kampus_unika">Unika</string>
+    <string name="kampus_udinus">Udinus</string>
+    <string name="kampus_usm">Usm</string>
+    <string name="kampus_unisbank">Unisbank</string>
+    <string name="kampus_upgris">Upgris</string>
+    <string name="kampus_unimus">Unimus</string>
+    <string name="kampus_unwahas">Unwahas</string>
+    <string name="kampus_ivet">Universitas Ivet</string>
+    <string name="kampus_unissula">Unissula</string>
+    <string name="kampus_untag">Untag</string>
+    <string name="admin">Admin</string>
+    <string name="masihaktif">Masih Aktif</string>
+    <string name="tahun2020">2020</string>
+    <string name="tahun2021">2021</string>
+    <string name="status_sudah">Sudah</string>
+    <string name="status_belum">Belum Cair</string>
+    <string name="status_kurang">Kurang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

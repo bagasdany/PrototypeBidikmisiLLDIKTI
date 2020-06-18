@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.MhsMundurActivityAdmin">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@android:color/white"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/icadd" />
+
+    <ProgressBar
+        android:layout_marginTop="100dp"
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:id="@+id/tvid" />
+    <!--    <TextView-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_marginTop="70dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tvkampus" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tvusername" />-->
+    <!--    <Button-->
+
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:id="@+id/bn_piechart"-->
+    <!--        -->
+    <!--        android:text="OpenPiemmm Chart"-->
+
+    <!--        />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

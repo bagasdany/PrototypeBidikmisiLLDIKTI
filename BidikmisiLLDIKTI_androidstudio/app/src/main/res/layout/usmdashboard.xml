@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stepbystepara.bidikmisilldikti.unika.DashboardUnika">
+
+    <ImageView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight = "1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:background="@drawable/usm1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:text="Universitas Semarang"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#3C8D8B8B"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/listmahasiswa"
+                    android:src="@drawable/listmahasiswaa"
+                    android:background="#FFFFFF"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:text="List Seluruh Mahasiswa"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:id="@+id/piestatusdana"
+                    android:src="@drawable/piedana"
+                    android:onClick="openpiedana"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:text="Grafik Pencairan dana"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:src="@drawable/pie"
+                    android:onClick="openpieChart"
+                    android:background="#FFFFFF"
+                    android:id="@+id/grafikipk"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:text="Mahasiswa Perlu Pembinaan"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageButton
+                    android:src="@drawable/pr"
+                    android:layout_marginTop="50dp"
+                    android:onClick="openpieprestasi"
+                    android:background="#FFFFFF"
+                    android:id="@+id/grafikprestasi"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:text="Mahasiswa Berprestasi"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

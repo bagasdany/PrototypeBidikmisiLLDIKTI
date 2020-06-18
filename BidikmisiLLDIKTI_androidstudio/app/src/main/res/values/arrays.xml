@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_gender_options">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+    <string-array name="array_status_options">
+        <item>@string/status_nonaktif</item>
+        <item>@string/status_aktif</item>
+        <item>@string/status_mundur</item>
+    </string-array>
+
+    <string-array name="array_dana_options">
+        <item>@string/status_kurang</item>
+        <item>@string/status_sudah</item>
+        <item>@string/status_belum</item>
+    </string-array>
+
+    <string-array name="array_kampusunika_options">
+        <item>@string/kampus_unika</item>
+    </string-array>
+    <string-array name="array_kampusudinus_options">
+        <item>@string/kampus_udinus</item>
+    </string-array>
+    <string-array name="array_kampususm_options">
+        <item>@string/kampus_usm</item>
+    </string-array>
+    <string-array name="array_kampusunisbank_options">
+        <item>@string/kampus_unisbank</item>
+    </string-array>
+    <string-array name="array_kampusupgris_options">
+        <item>@string/kampus_upgris</item>
+    </string-array>
+    <string-array name="array_kampusunimus_options">
+        <item>@string/kampus_unimus</item>
+    </string-array>
+    <string-array name="array_kampusunwahas_options">
+        <item>@string/kampus_unwahas</item>
+    </string-array>
+    <string-array name="array_kampusivet_options">
+        <item>@string/kampus_ivet</item>
+    </string-array>
+    <string-array name="array_kampusuntag_options">
+        <item>@string/kampus_untag</item>
+    </string-array>
+    <string-array name="array_kampusunissula_options">
+        <item>@string/kampus_unissula</item>
+    </string-array>
+    <string-array name="array_admin_options">
+        <item>@string/kampus_unknown</item>
+        <item>@string/kampus_unika</item>
+        <item>@string/kampus_udinus</item>
+        <item>@string/kampus_usm</item>
+        <item>@string/kampus_unisbank</item>
+        <item>@string/kampus_upgris</item>
+        <item>@string/kampus_unimus</item>
+        <item>@string/kampus_unwahas</item>
+        <item>@string/kampus_ivet</item>
+        <item>@string/kampus_unissula</item>
+        <item>@string/kampus_untag</item>
+        <item>@string/admin</item>
+    </string-array>
+</resources>

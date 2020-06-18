@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DC0267FF</color>
+    <color name="colorPrimaryDark">#DC0267FF</color>
+    <color name="colorAccent">#0654f0</color>
+
+    <color name="colorPrimaryEditor">#009cfd</color>
+    <color name="colorPrimaryDarkEditor">#1284ca</color>
+    <color name="colorAccentEditor">#DC0267FF</color>
+    <color name="color1">#FFFFFF</color>
+    <color name="color2">#009cfd</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+</resources>
